@@ -6,12 +6,10 @@
         var ourData = JSON.parse(ourRequest.responseText);
         var j = 0
         while (j < ourData.length) {
+            document.getElementById("img" + j).setAttribute('xlink:href', ourData[j].image);
             document.getElementById("description" + j).innerHTML = ourData[j].description;
             document.getElementById("prix" + j).innerHTML = ourData[j].prix;
-            document.getElementById("img" + j).setAttribute('xlink:href', ourData[j].image);
-            document.getElementById("nom" + j).innerHTML = ourData[j].name;
-
-
+            j = j + 1
         }
     };
 }());

@@ -10,7 +10,7 @@
         "name": "Raquette de badminton",
         "authors": "Yoplex",
         "tags": ["badminton", "sport", "raquette"],
-        "image": "/articles/raq_bad/raquette_yoplex.jpg",
+        "image": "/articles/raq_bad/raquette_bad.jpg",
         "description": "Raquette de Badminton qui procure de supers résultats",
         "prix": "100€"
     },
@@ -18,7 +18,7 @@
         "name": "Protèges tibias",
         "authors": "Kipstar",
         "tags": ["football", "protections", "dames"],
-        "image": "/articles/prot_tibias/proteges_kipstar.jpg",
+        "image": "/articles/prot_tibias/protege_tibias.png",
         "description": "Protèges tibias spécialement conçus pour résister aux bouchers de district 5",
         "prix": "10€"
     }
