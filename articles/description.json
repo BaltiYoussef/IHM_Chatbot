@@ -1,0 +1,25 @@
+[{
+        "name": "Chaussures de sport avec des flammes",
+        "authors": "nique",
+        "tags": ["course", "hommme", "athletisme", "sport", "vitesse"],
+        "image": "/articles/chaussurenikewish/chauss_nikewish.jpg",
+        "description": "Chaussures de sport haut de gamme pour les sportifs de très très haut niveau",
+        "prix": "300€"
+    },
+    {
+        "name": "Raquette de badminton",
+        "authors": "Yoplex",
+        "tags": ["badminton", "sport", "raquette"],
+        "image": "/articles/raq_bad/raquette_yoplex.jpg",
+        "description": "Raquette de Badminton qui procure de supers résultats",
+        "prix": "100€"
+    },
+    {
+        "name": "Protèges tibias",
+        "authors": "Kipstar",
+        "tags": ["football", "protections", "dames"],
+        "image": "/articles/prot_tibias/proteges_kipstar.jpg",
+        "description": "Protèges tibias spécialement conçus pour résister aux bouchers de district 5",
+        "prix": "10€"
+    }
+]
