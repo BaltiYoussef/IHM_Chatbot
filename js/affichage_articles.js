@@ -7,13 +7,9 @@
         var j = 0
         while (j < ourData.length) {
             document.getElementById("description" + j).innerHTML = ourData[j].description;
-            document.getElementById("name" + j).innerHTML = ourData[j].name;
             document.getElementById("prix" + j).innerHTML = ourData[j].prix;
-
-
-
-
-            j++;
+            document.getElementById("image" + j).innerHTML = ourData[j].image;
+            console.log(ourData[j].image)
 
         }
     };

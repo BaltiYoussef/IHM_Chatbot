@@ -1,8 +1,8 @@
 [{
         "name": "Chaussures de sport avec des flammes",
-        "authors": "nique",
+        "authors": "Nikewish",
         "tags": ["course", "hommme", "athletisme", "sport", "vitesse"],
-        "image": "/articles/chaussurenikewish/chauss_nikewish.jpg",
+        "image": "./articles/chaussurenikewish/chaussure.png",
         "description": "Chaussures de sport haut de gamme pour les sportifs de très très haut niveau",
         "prix": "300€"
     },
