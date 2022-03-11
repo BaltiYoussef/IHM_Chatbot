@@ -1,0 +1,27 @@
+! local concat = newline
+
++ start
+- Bonjour, je suis Elliot le Bot 🤖
+^ Je suis là pour vous aider.
+- Bonjour, je suis Elliot le Bot 🤖
+^ comment puis-je vous aider ?
+- Bonjour, je suis Elliot le Bot 🤖
+^ vous avez besoin d'aide ?
+
++ * tu * robot *
+- Comment tu as su que je suis un robot ? 🙊
+
++ je mappelle *
+- Bonjour <star1>
+
++ quel est *
+- ces articles peuvent t'interesser  <a href="https://www.urbandictionary.com/define.php?term=Doggo">Click Here</a>
+
++ * bleu
+- Voici la liste
+
+
++ *
+- excusez moi je n'ai pas compris votre phrase.
+- pourriez-vous reformuler votre phrase?
+- pardon?
