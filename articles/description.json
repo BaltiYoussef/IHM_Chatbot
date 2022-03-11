@@ -17,9 +17,33 @@
     {
         "name": "Protèges tibias",
         "authors": "Kipstar",
-        "tags": ["football", "protections", "dames"],
+        "tags": ["football", "protections", "sport"],
         "image": "/articles/prot_tibias/protege_tibias.png",
         "description": "Protèges tibias spécialement conçus pour résister aux bouchers de district 5",
         "prix": "10€"
+    },
+    {
+        "name": "Chaussette",
+        "authors": "Bonobob",
+        "tags": ["chaussette", "pieds", "sport"],
+        "image": "/articles/chaussette/chaussette.jpg",
+        "description": "Chaussettes confortables idéales pour mettre dans vos supers chaussures de sport",
+        "prix": "25€"
+    },
+    {
+        "name": "Maillot de bains",
+        "authors": "quick",
+        "tags": ["maillot", "piscine", "natation"],
+        "image": "/articles/maillot/maillot.png",
+        "description": "Maillot de bain très pratique et peu encombrant, idéal pour les sorties piscine en famille",
+        "prix": "5€"
+    },
+    {
+        "name": "Lunettes de bains",
+        "authors": "tribord",
+        "tags": ["lunettes", "piscine", "natation"],
+        "image": "/articles/lunettes/lunettes.png",
+        "description": "binocles aquatiques haute gamme, étanche et antibuée, recommandé par votre opticien",
+        "prix": "15€"
     }
 ]
