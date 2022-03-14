@@ -1,5 +1,5 @@
 function setup() {
-	chatbot.loadFiles(['bot.rive']);
+	chatbot.loadFiles(['brain/bot.rive']);
 }
 
 window.onload = setup;
