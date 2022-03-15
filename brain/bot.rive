@@ -14,27 +14,28 @@
 + je mappelle *
 - Bonjour <star1>
 
++ [*] (va|vas|cv|cava|çava|sava) [*]
+- Je suis un bot, Je ne ressens ni émotions, ni sentiments.
+
++ * age *
+- j'ai 2 ans
+
 + je suis *
 - Salut <star>
 
-+ quel est *
-- ces articles peuvent t'interesser  <a href="https://www.urbandictionary.com/define.php?term=Doggo">Click Here</a>
-
 + * bleu
-- Voici une liste des articles qui peuvent t'interesser:
+- Voici une liste des articles qui peuvent vous interesser:
 
 + (ou|qui) est *
-- Je ne connait pas <star2>
+- Je ne connais pas <star2>
 
-+ * va * 
-- Je suis un bot, Je ne ressens ni émotions, ni sentiments.
++ (salut|slt|hello|cc|coucou|bjr|bonjour|hey|hi)
+- He11000!
+- Wshhh m0n reuf!
 
-+ (salut|hello|cc|coucou|bjr|bonjour|hey|hi)
-- Helloooo!
-- Wshhh mon reuf!
-
+// Suggestions de produit:
 + * (course|hommme|athletisme|sport|vitesse) *
-- regarder cet article ( lien Chaussures ) , il peut vous interesser <a href="https://www.urbandictionary.com/define.php?term=Doggo">Click Here</a>
+- regardez cet article ( lien Chaussures ) , il peut vous interesser <a href="https://www.urbandictionary.com/define.php?term=Doggo">Click Here</a>
 
 + * (badminton|sport|raquette) *
 - regarder cet article ( lien Raquette ) , il peut vous interesser <a href="https://www.urbandictionary.com/define.php?term=Doggo">Click Here</a>
@@ -51,8 +52,11 @@
 + * (lunettes|piscine|natation) *
 - regarder cet article ( lien Lunettes ) , il peut vous interesser <a href="https://www.urbandictionary.com/define.php?term=Doggo">Click Here</a>
 
++ quel est *
+- ces articles peuvent t'interesser  <a href="https://www.urbandictionary.com/define.php?term=Doggo">Click Here</a>
 
 
+// Si on ne sait pas répondre
 + *
 - excusez moi je n'ai pas compris votre phrase.
 - pourriez-vous reformuler votre phrase?
