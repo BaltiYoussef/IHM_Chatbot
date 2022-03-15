@@ -14,14 +14,44 @@
 + je mappelle *
 - Bonjour <star1>
 
++ je suis *
+- Salut <star>
+
 + quel est *
 - ces articles peuvent t'interesser  <a href="https://www.urbandictionary.com/define.php?term=Doggo">Click Here</a>
 
 + * bleu
-- Voici la liste
+- Voici une liste des articles qui peuvent t'interesser:
+
++ (ou|qui) est *
+- Je ne connait pas <star2>
+
++ (salut|hello|cc|coucou|bjr|bonjour|hey|hi)
+- Helloooo!
+- Wshhh mon reuf!
+
++ * (course|hommme|athletisme|sport|vitesse) *
+- regarder cet article ( lien Chaussures ) , il peut vous interesser <a href="https://www.urbandictionary.com/define.php?term=Doggo">Click Here</a>
+
++ * (badminton|sport|raquette) *
+- regarder cet article ( lien Raquette ) , il peut vous interesser <a href="https://www.urbandictionary.com/define.php?term=Doggo">Click Here</a>
+
++ * (football|protections|sport) *
+- regarder cet article ( lien tibias ) , il peut vous interesser <a href="https://www.urbandictionary.com/define.php?term=Doggo">Click Here</a>
+
++ * (chaussette|pieds|sport) *
+- regarder cet article ( lien Chaussette ) , il peut vous interesser <a href="https://www.urbandictionary.com/define.php?term=Doggo">Click Here</a>
+
++ * (maillot|piscine|natation) *
+- regarder cet article ( lien Maillot ) , il peut vous interesser <a href="https://www.urbandictionary.com/define.php?term=Doggo">Click Here</a>
+
++ * (lunettes|piscine|natation) *
+- regarder cet article ( lien Lunettes ) , il peut vous interesser <a href="https://www.urbandictionary.com/define.php?term=Doggo">Click Here</a>
+
 
 
 + *
 - excusez moi je n'ai pas compris votre phrase.
 - pourriez-vous reformuler votre phrase?
 - pardon?
+
