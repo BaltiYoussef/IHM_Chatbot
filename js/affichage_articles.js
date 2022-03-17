@@ -12,4 +12,6 @@
             j = j + 1
         }
     };
+
+    Pub = window.open("roulette.html", "pub", "toolbar=no,menubar=no,scrollbars=no,status=yes,resizable=1,width=500, height=400, top=200, left=450");
 }());

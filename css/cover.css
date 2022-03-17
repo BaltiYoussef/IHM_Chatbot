@@ -106,4 +106,9 @@ body {
     display: none;
 }
 
-
+.roulette {
+    position: relative;
+    left: 30px;
+    bottom: 0;
+    -webkit-transition: -webkit-transform 2s ease-out;
+}
