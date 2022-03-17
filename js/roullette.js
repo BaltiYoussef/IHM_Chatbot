@@ -2,16 +2,24 @@ var img = document.querySelector('img');
 img.addEventListener('click', onClick, false);
 
 
+
+
+
+
 function onClick() {
-    const music = new Audio('./../img/audio.wav');
-    music.play();
-    music.loop = true;
-    music.playbackRate = 2;
-    music.pause();
+    const music = new Audio('./../img/roulette.mp3');
+    music.play()
+
 
     this.removeAttribute('style');
 
-    var deg = 500 + Math.round(Math.random() * 1500);
+    var deg = Math.round(Math.random() * 1500);
+
+
+
+    if (deg < 500 && deg > 0)
+        console.log(deg)
+
 
     var css = '-webkit-transform: rotate(' + deg + 'deg);';
 
