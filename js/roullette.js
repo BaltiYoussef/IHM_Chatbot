@@ -9,7 +9,7 @@ function getRandomInt(max) {
 function openpage0() {
     let params = `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,
     width=1000,height=1000,left=250,top=250`;
-    window.open("./congrats.html", params)
+    window.open("./congrats2.html", params)
 }
 
 function openpage1() {
@@ -21,7 +21,7 @@ function openpage1() {
 function openpage2() {
     let params = `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,
     width=1000,height=1000,left=250,top=250`;
-    window.open("./congrats2.html", params)
+    window.open("./congrats.html", params)
 }
 
 function openpage3() {
