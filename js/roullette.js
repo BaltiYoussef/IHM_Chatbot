@@ -7,7 +7,7 @@ img.addEventListener('click', onClick, false);
 
 
 function onClick() {
-    const music = new Audio('./../img/roulette.mp3');
+    const music = new Audio('./../IHM_Chatbot/img/roulette.mp3');
     music.play()
 
 
