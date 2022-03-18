@@ -46,16 +46,16 @@ function onClick() {
     console.log(res)
     if (res == 0) {
         console.log("article acheté ")
-        setTimeout(openpage0, 4000);
+        setTimeout(openpage0, 2500);
     } else if (res == 1) {
         console.log("voyage sibérie ok")
-        setTimeout(openpage1, 4000);
+        setTimeout(openpage1, 2500);
     } else if (res == 2) {
         console.log("5% sur premier achat")
-        setTimeout(openpage2, 4000);
+        setTimeout(openpage2, 2500);
     } else {
         console.log("perdu")
-        setTimeout(openpage3, 4000);
+        setTimeout(openpage3, 2500);
     }
 
 
