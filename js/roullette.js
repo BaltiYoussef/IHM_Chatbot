@@ -15,7 +15,7 @@ function openpage0() {
 function openpage1() {
     let params = `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,
     width=1000,height=1000,left=250,top=250`;
-    window.open("./congrats1.html", params)
+    window.open("./congrats3.html", params)
 }
 
 function openpage2() {
@@ -27,7 +27,7 @@ function openpage2() {
 function openpage3() {
     let params = `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,
     width=1000,height=1000,left=250,top=250`;
-    window.open("./congrats3.html", params)
+    window.open("./congrats1.html", params)
 }
 
 
