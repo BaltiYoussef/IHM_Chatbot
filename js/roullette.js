@@ -33,13 +33,14 @@ function openpage3() {
 
 
 function onClick() {
-    const music = new Audio('./../IHM_Chatbot/img/roulette.mp3');
+    const music = new Audio('./../img/roulette.mp3');
     music.play()
 
 
     this.removeAttribute('style');
 
     var res = getRandomInt(3)
+
 
     var deg = Math.round(((getRandomInt(4) + 2) * 360) + (res * 90) + 45);
 
