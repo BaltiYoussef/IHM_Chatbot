@@ -9,25 +9,25 @@ function getRandomInt(max) {
 function openpage0() {
     let params = `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,
     width=1000,height=1000,left=250,top=250`;
-    open("./successpromo0.html", params)
+    window.open("./congrats.html", params)
 }
 
 function openpage1() {
     let params = `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,
     width=1000,height=1000,left=250,top=250`;
-    open("./successpromo1.html", params)
+    window.open("./congrats1.html", params)
 }
 
 function openpage2() {
     let params = `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,
     width=1000,height=1000,left=250,top=250`;
-    open("./successpromo2.html", params)
+    window.open("./congrats2.html", params)
 }
 
 function openpage3() {
     let params = `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,
     width=1000,height=1000,left=250,top=250`;
-    open("./successpromo3.html", params)
+    window.open("./congrats3.html", params)
 }
 
 
