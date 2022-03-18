@@ -1,0 +1,45 @@
+body {
+  background-color: #ffffff;
+  font-family: "Open Sans", sens-serif;
+  text-align: center;
+}
+
+.second-block {
+    position: relative;
+    left: 30px;
+    bottom: 0;
+    -webkit-transition: -webkit-transform 2s ease-out;
+}
+
+h1 {
+  color: #1E52F7;
+  margin-bottom: 40px;
+}
+
+
+h3 {
+  color: #687C99;
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+
+button[name="share"] {
+  color: #001867;
+  border: 0px solid #ffffff;
+  width: 170px;
+  border-radius: 20px;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  box-shadow: 0px 7px 35px 0px  rgba(167, 186, 244, 0.7);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+button[name="share"]:hover {
+  background-color: #1E52F7;
+  color: #ffffff;
+}
+
