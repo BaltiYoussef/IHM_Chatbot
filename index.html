@@ -7,14 +7,14 @@
 
     <title>Liste des articles</title>
 
-    <link href="./css/cover.css" rel="stylesheet">
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/cover.css" rel="stylesheet"> <!-- Pour mise en page de Chatbot -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet"> <!-- Pour la mise-en page -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script> <!-- Pour Chatbot -->
-    <script src="https://unpkg.com/rivescript@latest/dist/rivescript.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/idewcomputing/code-chatbot/src/chatbot.js"></script>
-    <script src="./js/script.js"></script>
-    <script type="text/javascript" src="./js/affichage_articles.js "></script>
-    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/rivescript@latest/dist/rivescript.min.js"></script> <!-- Pour Chatbot -->
+    <script src="https://cdn.jsdelivr.net/gh/idewcomputing/code-chatbot/src/chatbot.js"></script> <!-- Pour Chatbot -->
+    <script src="./js/script.js"></script> <!-- Pour Chatbot -->
+    <script type="text/javascript" src="./js/affichage_articles.js "></script>  <!-- Pour Affichage des articles-->
+    <script src="./js/bootstrap.bundle.min.js"></script> <!-- Pour la barre de Menu -->
     <!-- Necessaire pour la bare deroulante-->
 
 </head>
@@ -32,9 +32,6 @@
                         </div>
                         <div class="col-sm-4 offset-md-1 py-4">
                             <h4 class="text-white">Menu</h4>
-                            <ul class="list-unstyled">
-
-                            </ul>
                             <li><a href="index.html" class="text-white">Page principale</a></li>
                             <li><a href="aide.html" class="text-white">Aide</a></li>
                             <li><a href="contact.html" class="text-white">Contacts</a></li>
@@ -57,6 +54,8 @@
 
 <!-- Fin de bare de menu déroulante en haut de la page -->
 
+
+        <!-- Debut Affichage Articles -->
 <main>
         <div class="album py-5 bg-light">
             <div class="container">
@@ -211,10 +210,11 @@
         </div>
         <div class="popup" onload="myFunction()"></div>
 
-
-
     </main>
 
+<!-- Fin Affichage Articles -->
+
+<!-- Debut Creation Chabot-->
 <div class="chat-box">
     <div class="chat-closed"> Chat Now </div>
     <div class="chat-header hide">
@@ -244,6 +244,8 @@
             });
         });
     </script>
+
+        <!-- Fin Creation Chabot-->
 
 </body>
 
