@@ -5,7 +5,7 @@
 
 
     var ourRequest = new XMLHttpRequest();
-    ourRequest.open('GET', './../commentaires.json');
+    ourRequest.open('GET', './../../JSON/commentaires.json');
     ourRequest.send();
     ourRequest.onload = function() {
         var ourData = JSON.parse(ourRequest.responseText);

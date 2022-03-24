@@ -1,6 +1,6 @@
 (function() {
     var ourRequest = new XMLHttpRequest();
-    ourRequest.open('GET', './articles/description.json');
+    ourRequest.open('GET', './../IHM_Chatbot/JSON/description.json');
     ourRequest.send();
     ourRequest.onload = function() {
         var ourData = JSON.parse(ourRequest.responseText);
