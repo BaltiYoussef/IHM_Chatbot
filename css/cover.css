@@ -106,6 +106,14 @@ body {
     display: none;
 }
 
+.dialogue {
+    position: relative;
+}
+.text-box {
+    position: absolute;
+    bottom: 0;
+}
+
 .roulette {
     position: relative;
     left: 30px;
