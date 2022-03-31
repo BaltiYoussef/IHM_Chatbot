@@ -14,7 +14,7 @@
  
   * <strong> body tag </strong>  
    On peut dire que la balise <body> est decoupé en 3 principales partie : 
-    1. la premiere partie contient la bare déroulante de la page, et qui represénte le Menu.  Cette bare se trouve déja sur presque toutes les pages de notre site, afin     de faciliter la navigation des utilisateurs dans le site. La bare déroulante a été developé avec du bootstrap , qu'on appelle à l'aide d'un <script> dans la partie    head.
+ 1. la premiere partie contient la bare déroulante de la page, et qui represénte le Menu.  Cette bare se trouve déja sur presque toutes les pages de notre site, afin     de faciliter la navigation des utilisateurs dans le site. La bare déroulante a été developé avec du bootstrap , qu'on appelle à l'aide d'un <script> dans la partie    head.
     La bare de menu contient en tout 4 lien hypertextes. Le lien * Page principale qui te permet de revenir sur cette page quand tu es sur une autre page
     Le lien * Aide va te rediriger vers la page aide qui contient des informations sur l'utilisation du site web.
     le lien * Contacts te redirige vers une page dans laquelle on peut trouver un formulaire de contact pour laisser un message au propriétaire du site web.
