@@ -2,7 +2,7 @@
 
 ## Index.html
 
-* <html>
+* <strong><html></strong>
 La page principale est index.html . c'est celle qui a été codée en premier.
 Cette page contient en premier la balise <html lang="fr"> dans laquelle on précise au navigateur le langage qui sera utilisé pour la page html. La langue ici est le Français.
  * <head>
