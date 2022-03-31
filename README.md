@@ -7,7 +7,7 @@
   Cette page contient en premier la balise <html lang="fr"> dans laquelle on précise au navigateur le langage qui sera utilisé pour la page html. La langue ici est le     Français.
   
  * <strong> head tag </strong>  
-  Ensuite on trouve la balise <head> : La balise <head> contient les métadonnées de la page ( le titre du document, les styles, liens, scripts ), des informations         spécifiques sur la page web qui ne sont pas affichées à l'utilisateur , mais qui peuvent étre interessantes pour celui qui dévellope la page.
+  Ensuite on trouve la balise < head > : La balise <head> contient les métadonnées de la page ( le titre du document, les styles, liens, scripts ), des informations         spécifiques sur la page web qui ne sont pas affichées à l'utilisateur , mais qui peuvent étre interessantes pour celui qui dévellope la page.
   On trouve dans notre <head> la balise <title> qui contient le titre de notre page HTML.
   et puis dans un second temps tout les differents liens et scripts qui permettent notre page de s'afficher correctement. exemple : lien vers le fichier css , liens vers   des scripts qui sont necessaires pour le chatbot , etc..
   Une remarque importante si on fait appel à des liens hypertextes externes, il faut que tout les lines commencent par HTTPS , sinon Github va juger que la connexion vers ce lien n'est pas sécurisé et bloquera donc l'accées à la page.
