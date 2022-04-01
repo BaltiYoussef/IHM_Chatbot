@@ -27,7 +27,20 @@ tout le code lié à cette partie se trouve dans la balise < main > < /main >et 
  3. La troisieme partie est la partie auquellle le projet tourne, il s'agit du chatbot.
 Globalement, il y a deux grandes catégories de chatterbots. On différencie les chatbots fonctionnant sur le principe du "pattern matching" (reconnaissance de mots-clés) et les chatbots basés sur le "deep learning" (apprentissage profond).
   Le chatbot que nous avons mis en place fonctionne sur le principe du "pattern matching" seulement. c'est à dire que le chatbot va revevoir un input "le message que l'utilisateur va envoyer" et le chatbot va chercher s'il a une réponse pour le message qu'il a reçu. tout ça est geré dans un fichier qui s'appelle bot.rive dans le dossier brain. Le langage qui est utilisé dans ce fichier s'appelle du [Rivescript](https://www.rivescript.com/docs/tutorial). c'esst un langage de script simple pour les chatbots avec une syntaxe intuitive et facile à apprendre.
+  la partie qui contient la balise div class="chat-box , permet de créer la structure du chatbot et fait appel à des fonctions javascripts qui permettent d'envoyer et de recevoir des message au chatbot.  
+ la partie script à la fin du code permet d'ouvrir ou réduire la barre de dialogue du chatbot.
   Tout le code pour la partie du chatbot se trouve à la fin du fichier index.html , et il est mentionné avec un commentaire qui indique le début et la fin de sa partie.
 
+## roulette.html
+Vous avez surement constaté en ouvrant la page index.html, une deuxieme page s'affiche sous forme de pop-up. il s'agit de la page de roulette.
+Cette page s'affiche dés qu'on ouvre la page index.html, grace à une fonction javascript qui déclenche l'affichage de roulette.html. Il s'agit d'une image qui tourne en la cliquant et qui affiche une des 4 pages nommées "cograts" selon le résultat.
 
- Toutes les pages HTML sont déposées dans la racine , et les restes des fichiers sont réparties dans des dossiers selon leur types, pour faciliter la maintenance du code en cas d'évolution
+## Articles
+chacun des 6 articles qui sont affichées sur la page index.html redirige vers la page d'article en cliquant sur acheter. Tout les pages html des articles sont situées dans le dossier articles.
+
+## contact.html
+> la page contact est accessible depuis la bare de menu. elle permet à l'utilisateur de contacter l'administrateur de la page en remplissant un  formulaire de contact. La page est décomposée en deux grandes parties, la premiere partie est la bare de contact qui a été expliqué precedement dans la page index.html et la deuxieme partie est le formulaire de contact.
+le formulaire est créé avec du bootstrap. le bootstrap nous permet de créer les cases d'input d'une maniere propre et afin d'envoyer des messages à l'admin de la page on a fait recours à un service externe qui s'appelle [formsubmit](https://formsubmit.co/)
+Il suffit juste de préciser l'adresse mail auquel on veut envoyer le mail qui contiendra les informations qui seront remplies par l'utilisateur.
+
+ Toutes les pages HTML ( saufs pour les pages d'articles ) sont déposées dans la racine , et les restes des fichiers sont réparties dans des dossiers selon leur types, pour faciliter la maintenance du code en cas d'évolution
