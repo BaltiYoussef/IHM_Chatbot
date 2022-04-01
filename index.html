@@ -8,58 +8,66 @@
     <title>Liste des articles</title>
 
 
-    <script src="./js/bootstrap.bundle.min.js"></script> <!-- Pour la barre de Menu -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet"> <!-- Pour la mise-en page -->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script> <!-- Pour Chatbot -->
-    <script src="https://unpkg.com/rivescript@latest/dist/rivescript.min.js"></script> <!-- Pour Chatbot -->
-    <script src="https://cdn.jsdelivr.net/gh/idewcomputing/code-chatbot/src/chatbot.js"></script> <!-- Pour Chatbot -->
-    <script src="./js/script.js"></script> <!-- Pour Chatbot -->
-    <link href="./css/cover.css" rel="stylesheet"> <!-- Pour mise en page de Chatbot -->
-    <script type="text/javascript" src="./js/affichage_articles.js "></script>  <!-- Pour Affichage des articles-->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- Pour la barre de Menu -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <!-- Pour la mise-en page -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <!-- Pour Chatbot -->
+    <script src="https://unpkg.com/rivescript@latest/dist/rivescript.min.js"></script>
+    <!-- Pour Chatbot -->
+    <script src="https://cdn.jsdelivr.net/gh/idewcomputing/code-chatbot/src/chatbot.js"></script>
+    <!-- Pour Chatbot -->
+    <script src="./js/script.js"></script>
+    <!-- Pour Chatbot -->
+    <link href="./css/cover.css" rel="stylesheet">
+    <!-- Pour mise en page de Chatbot -->
+    <script type="text/javascript" src="./js/affichage_articles.js "></script>
+    <!-- Pour Affichage des articles-->
 
 
     <!-- Necessaire pour la bare deroulante-->
 
 </head>
 
-    <body>
-        <header>
+<body>
+    <header>
         <!-- Début bare de menu déroulante en haut de la page -->
-            <div class="collapse bg-dark" id="navbarHeader">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-8 col-md-7 py-4">
-                            <h4 class="text-white">Liste des produits</h4>
-                            <p class="text-muted">Cette interface a été créé par Thomas Vendramini et Youssef Balti dans le but d'obtenir une bonne note en IHM
-                            </p>
-                        </div>
-                        <div class="col-sm-4 offset-md-1 py-4">
-                            <h4 class="text-white">Menu</h4>
-                            <li><a href="index.html" class="text-white">Page principale</a></li>
-                            <li><a href="aide.html" class="text-white">Aide</a></li>
-                            <li><a href="contact.html" class="text-white">Contacts</a></li>
-                        </div>
+        <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <h4 class="text-white">Liste des produits</h4>
+                        <p class="text-muted">Cette interface a été créé par Thomas Vendramini et Youssef Balti dans le but d'obtenir une bonne note en IHM
+                        </p>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4 class="text-white">Menu</h4>
+                        <li><a href="index.html" class="text-white">Page principale</a></li>
+                        <li><a href="./GuideUtilisation.docx" class="text-white">Aide</a></li>
+                        <li><a href="contact.html" class="text-white">Contacts</a></li>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="navbar navbar-dark bg-dark shadow-sm">
-                <div class="container">
-                    <a href="index.html" class="navbar-brand d-flex align-items-center">
-                        <strong>Decawish</strong>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container">
+                <a href="index.html" class="navbar-brand d-flex align-items-center">
+                    <strong>Decawish</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-                </div>
             </div>
+        </div>
     </header>
 
-<!-- Fin de bare de menu déroulante en haut de la page -->
+    <!-- Fin de bare de menu déroulante en haut de la page -->
 
 
-        <!-- Debut Affichage Articles -->
-<main>
+    <!-- Debut Affichage Articles -->
+    <main>
         <div class="album py-5 bg-light">
             <div class="container">
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
@@ -215,26 +223,26 @@
 
     </main>
 
-<!-- Fin Affichage Articles -->
+    <!-- Fin Affichage Articles -->
 
-<!-- Debut Creation Chabot-->
-<div class="chat-box">
-    <div class="chat-closed"> Chat Now </div>
-    <div class="chat-header hide">
-        <div class="box"></div>Online Support</div>
+    <!-- Debut Creation Chabot-->
+    <div class="chat-box">
+        <div class="chat-closed"> Chat Now </div>
+        <div class="chat-header hide">
+            <div class="box"></div>Online Support</div>
         <div class="chat-content hide">
             <div class='wrapper'>
-                    <div id="dialogue"></div>
-                    <form onSubmit="return chatbot.sendMessage()">
-                        <div class="text-box">
-                            <input type="text" name="message" id="message" autocomplete="off" disabled placeholder="Please wait... loading...">
-                            <input class="send-button" type="submit" value=">">
-                        </div>
-                    </form>
+                <div id="dialogue"></div>
+                <form onSubmit="return chatbot.sendMessage()">
+                    <div class="text-box">
+                        <input type="text" name="message" id="message" autocomplete="off" disabled placeholder="Please wait... loading...">
+                        <input class="send-button" type="submit" value=">">
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
-</div>
-<script type="text/javascript">
+    <script type="text/javascript">
         $(document).ready(function() {
             $(".chat-closed").on("click", function(e) {
                 $(".chat-header,.chat-content").removeClass("hide");
@@ -248,7 +256,7 @@
         });
     </script>
 
-        <!-- Fin Creation Chabot-->
+    <!-- Fin Creation Chabot-->
 
 </body>
 
