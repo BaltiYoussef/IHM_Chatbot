@@ -29,4 +29,4 @@ Globalement, il y a deux grandes catégories de chatterbots. On différencie les
   Le chatbot que nous avons mis en place fonctionne sur le principe du "pattern matching" seulement. c'est à dire que le chatbot va revevoir un input "le message que l'utilisateur va envoyer" et le chatbot va chercher s'il a une réponse pour le message qu'il a reçu. tout ça est geré dans un fichier qui s'appelle bot.rive dans le dossier brain. 
 
 
- Toutes les pages HTML sont dans la racine , et les restes des fichiers sont réparties dans des dossiers selon leur types, pour faciliter la maintenance du code en cas d'évolution
+ Toutes les pages HTML sont déposées dans la racine , et les restes des fichiers sont réparties dans des dossiers selon leur types, pour faciliter la maintenance du code en cas d'évolution
